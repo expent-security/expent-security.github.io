@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExpentSec Blog</title>
+    <title>ExpentSec</title>
+    <link rel="icon" href="https://i.ibb.co/RTxJ8cR0/hacker-1.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,34 +26,119 @@
             color: #00ffcc;
         }
         .post {
-            background-color: #2a2a2a;
+            background-color: #2a2a2a; 
             padding: 15px;
             margin: 15px 0;
             border-radius: 5px;
         }
         a {
-            color: #00ffcc;
+            color: #00ffcc; 
             text-decoration: none;
         }
         a:hover {
-            text-decoration: underline;
+            text-decoration: underline; 
+        }
+        
+        .sidebar {
+            width: 250px;
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            text-align: center;
+        }
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00ffcc;
+            margin-bottom: 20px;
+        }
+        .sidebar h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .sidebar a {
+            display: inline-block;
+            margin: 10px;
+        }
+        .sidebar a img {
+            width: 30px;
+            height: 30px;
+            border: none;
+        }
+        
+        .tags {
+            width: 250px;
+            padding: 30px;
+            background-color: #2a2a2a;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+        .tags h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .tags a {
+            display: block;
+            margin: 8px 0;
+            font-size: 18px;
+            color: #00ffcc;
+        }
+        .tags a:hover {
+            color: #3498db;
         }
     </style>
 </head>
 <body>
+   
+    <div class="sidebar">
+        <img src="https://i.ibb.co/HDPNvgCM/3717d6a414d8dc80186aa48cbd089804.png" alt="Profil Resmi">
+        <h3>ExpentSec</h3>
+        <p>| Pentester | Ethical Hacker |</p>
+        <a href="https://instagram.com/sametpwn" target="_blank"><img src="https://i.ibb.co/9HM0vRHL/icons8-instagram-64.png" alt="Instagram"></a>
+        <a href="https://twitter.com/expentsec" target="_blank"><img src="https://i.ibb.co/4ZvGfDdq/icons8-twitter-50.png" alt="Twitter"></a>
+        <a href="https://tryhackme.com/p/ExpentSec" target="_blank"><img src="https://i.ibb.co/wTJzJd7/tryhackme-logo-icon-249349.png" alt="TryHackMe"></a>
+        <a href="http://discordapp.com/users/227236677960204288" target="_blank"><img src="https://i.ibb.co/BV0fsGCW/icons8-discord-50.png" alt="Discord"></a>
+    </div>
+
+    
     <div class="container">
         <h1>ExpentSec Blog</h1>
         <p>Hacking, Pentest ve OSINT Üzerine Yazılar</p>
-        
+
         <div class="post">
             <h2><a href="#">İlk Blog Yazım - Pentester Olma Yolculuğu</a></h2>
             <p>Bu yazıda, pentest kariyerime nasıl başladığımı ve hangi kaynakları kullandığımı anlatıyorum...</p>
         </div>
-        
         <div class="post">
             <h2><a href="#">Nmap Kullanımı ve Ağ Keşfi</a></h2>
             <p>Bu yazıda Nmap ile ağ keşfi nasıl yapılır, IDS/IPS sistemleri nasıl atlatılır anlatıyorum...</p>
         </div>
+    </div>
+
+ 
+    <div class="tags">
+        <h3>Kategoriler</h3>
+        <a href="#">Pentesting</a>
+        <a href="#">OSINT</a>
+        <a href="#">Social Engineering</a>
+        <a href="#">Tool Usage</a>
+        <a href="#">Active Directory</a>
+        <a href="#">Steganography</a>
+        <a href="#">Cryptography</a>
+        <a href="#">Web Exploitation</a>
+        <a href="#">Privilege Escalation</a>
+        <a href="#">Reconnaissance</a>
+        <a href="#">Reverse Engineering</a>
+        <a href="#">Bug Bounty</a>
     </div>
 </body>
 </html>
